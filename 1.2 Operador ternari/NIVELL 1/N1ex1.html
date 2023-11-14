@@ -8,7 +8,29 @@
 <body>
     <h1>NIVELL 1</h1>
     <h2>Exercici 1</h2>
+
+    <p>Tu edad es <input id="edad" type="number" ></p>
+    <p><button onclick="puedesConducir()">Mostrar resultado</button></p>
+    <p id="resultado"></p>
     
-    
+    <script>
+
+        function puedesConducir() {
+            let años = document.getElementById("edad").value;
+        
+
+        if (años >= 18){
+                document.getElementById("resultado").innerHTML = "Puedes conducir";
+          }
+        
+          else {
+                document.getElementById("resultado").innerHTML = "No puedes conducir";
+          }
+        }
+        
+          
+
+
+    </script>
 </body>
 </html>
