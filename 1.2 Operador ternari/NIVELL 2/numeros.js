@@ -4,12 +4,12 @@ function positivoNegativoCero () {
     let numero = document.getElementById("num").value; 
 
     if (numero > 0) {
-        document.getElementById("resultado").innerHTML = ("El número " + numero + " es positivo.");
+        document.getElementById("resultado1").innerHTML = ("El número " + numero + " es positivo.");
     }
     else if (numero < 0) {
-        document.getElementById("resultado").innerHTML = ("El número " + numero + " es negativo.");
+        document.getElementById("resultado1").innerHTML = ("El número " + numero + " es negativo.");
     }
     else {
-        document.getElementById("resultado").innerHTML = ("El número " + numero + " es cero.");
+        document.getElementById("resultado1").innerHTML = ("El número " + numero + " es cero.");
     }
 }

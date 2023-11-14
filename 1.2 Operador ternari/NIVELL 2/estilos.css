@@ -1,7 +1,25 @@
 .enunciado1 {
     font-size: large;
+    margin-bottom: 25px;
 }
 
 .enunciado2 {
     font-size: large;
+    margin-bottom: 25px;
+}
+
+.div-col1 {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: darkgrey;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.div-col2 {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: darkgrey;
+    height: 250px;
+    border-radius: 10px;
 }

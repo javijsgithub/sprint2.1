@@ -12,21 +12,31 @@
         <div class="row">
             <h1 class="titulo text-center">NIVELL2</h1>
             <h2 class="subtitulo text-center">Exercici 3</h2>
+            
             <div class="col">
-                <h3 class="enunciado1">Comprueba si un número es positivo, negativo o si es el número cero.</h3>
-                <p>Escribe un número: <input type="number" id="num"></p>
-                <p><button onclick="positivoNegativoCero()">Comprobar resultado</button></p>
-                <p id="resultado"></p>
+                <div class="div-col1">
+                    <h3 class="enunciado1">Comprueba si un número es positivo, negativo o si es el número cero.</h3>
+                    <p>Escribe un número: <input type="number" id="num"></p>
+                    <p><button onclick="positivoNegativoCero()">Comprobar resultado</button></p>
+                    <p id="resultado1"></p>
+                </div>                
             </div>           
             <div class="col">
-                <h3 class="enunciado2">Encuentra el valor máximo.</h3>
-
+                <div class="div-col2">
+                    <h3 class="enunciado2">Encuentra el valor máximo.</h3>
+                    <p>Escribe un valor para (a): <input type="number" id="numa"></p>
+                    <p>Escribe un valor para (b): <input type="number" id="numb"></p>
+                    <p>Escribe un valor para (c): <input type="number" id="numc"></p>
+                    <p><button onclick="encontrarMaximo()">Comprobar resultado</button></p>
+                    <p id="resultado2"></p>
+                </div>
             </div>
         </div>
     </div>
     
     
   <script src="numeros.js"></script>
+  <script src="maximo.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>  
 </body>
 </html>
