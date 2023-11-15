@@ -12,11 +12,20 @@
 
     <script>
 
-        function suma(...args) {
-            console.log(args);
-        }
+        function suma(...numeros) { 
+            
+            let resultado = 0;
+            numeros.forEach(function(valor) {
+                resultado = resultado + valor;                
+            });  
+            return resultado;                              
+        } 
+        
+        console.log(suma(1,2,3,4,5));
+              
 
-        suma([1,2,3], + [4,5,6]);
+            
+        
         
     </script>
     
