@@ -8,6 +8,27 @@
 <body>
     <h1>Rest & Spread operators</h1>
     <h2>NIVELL 2, exercici 3</h2>
+
+    <script>
+
+        const objeto1 = {
+            nombre: "Javier",
+            apellido: "Sanchez",
+            ubicacion: "Barcelona"
+        };
+
+        const objeto2 = {
+            ...objeto1
+        };
+
+        objeto2.nombre = "Juan";
+
+        const objetos = [objeto1, objeto2];
+
+        console.log(objetos);
+
+
+    </script>
     
 </body>
 </html>
