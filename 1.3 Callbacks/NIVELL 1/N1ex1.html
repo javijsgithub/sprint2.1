@@ -8,7 +8,20 @@
 <body>
     <h1>NIVELL 1</h1>
     <h2>Exercici 1</h2>
-    
+
+    <script>
+
+        function procesar(numero, callback) {
+            callback(numero);
+        }
+
+        function miCallback(num) {
+            console.log("El numero procesado es: " + num);
+        }
+        
+        procesar(12, miCallback);
+
+    </script>
     
 </body>
 </html>
