@@ -12,13 +12,14 @@
     <script>
 
         function procesarElementos(array, callback) {
+            array = ["Amaia", " Sofia"];
             callback(array);
         }
         function miCallback(miArray) {
             console.log("Mostramos los nombres del array: " + miArray,);
         }
 
-        procesarElementos(["Amaia",  " Sofia"], miCallback);
+        procesarElementos([], miCallback);
 
     </script>
 </body>
