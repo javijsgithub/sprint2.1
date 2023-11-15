@@ -8,7 +8,21 @@
 <body>
     <h1>NIVELL 2</h1>
     <h2>Exercici 3</h2>
-    
+
+    <script>
+
+        function esperarYsaludar(nombre, callback) {
+            callback(nombre);
+        }
+
+        function miCallback(persona) {
+           console.log ("Hemos esperado 2 segundos para mostrar el nombre de: " + persona);
+        }
+
+        setTimeout(esperarYsaludar, 2000, "Javier", miCallback);
+       
+    </script>
+
     
 </body>
 </html>
