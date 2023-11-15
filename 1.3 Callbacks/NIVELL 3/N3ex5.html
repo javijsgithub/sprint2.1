@@ -8,6 +8,21 @@
 <body>
     <h1>NIVELL 3</h1>
     <h2>Exercici 5</h2>
+
+    <script>
+
+        function procesarCadena(cadena, callback) {
+            cadena = "esto es una cadena de caracteres convertida a mayusulas" .toUpperCase(); 
+            callback(cadena);
+        }
+
+        function miCallback(string) {
+            console.log(string);
+        }
+        
+        procesarCadena( "", miCallback);
+
+    </script>
     
 </body>
 </html>
