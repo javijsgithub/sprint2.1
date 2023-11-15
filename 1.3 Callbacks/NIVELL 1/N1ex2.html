@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,20 @@
 <body>
     <h1>NIVELL 1</h1>
     <h2>Exercici 2</h2>
+
+    <script>
+
+        function calculadora (numero1, numero2, callback) {
+            callback(numero1, numero2);
+        }
+
+        function miCallback(num1, num2) {
+            console.log("El resultado de la suma es: " + (num1 + num2));
+        }
+
+        calculadora(10, 2, miCallback);
+
+    </script>
 
     
 </body>
