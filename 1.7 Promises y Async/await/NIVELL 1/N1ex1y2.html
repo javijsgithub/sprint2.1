@@ -8,11 +8,19 @@
 <body>
 
     <h1>Promises & Async/Await</h1>
-    <h2>NIVELL1, exercici 1</h2>
+    <h2>NIVELL1, exercici 1 y 2</h2>
 
     <script>
+               
+      let promesa = new Promise ((resuelve) => {
+        setTimeout(() => {
+            resuelve("Hola mundo");
+        },2000);
+        });
+      promesa.then((resultado) => {
+        console.log(resultado);
+      });
 
-        
     </script>
     
 </body>
