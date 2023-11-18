@@ -8,6 +8,31 @@
 <body>
     <h1>Promises & Async/Await</h1>
     <h2>NIVELL1, exercici 3</h2>
+
+    <script>
+
+        function promesa(input) {
+            return new Promise ((resolve, reject) => {
+        setTimeout(() => {
+            if (input === "Hola") {
+                resolve("Promesa resuelta!!");
+            }
+            else {
+                reject("Promesa rechazada!!");
+            }            
+        },2000);
+        });
+    }
+      const usuarioInput = "Hola";
+      promesa(usuarioInput)
+      .then((mensaje) => console.log(mensaje))
+      .catch((error) => console.error(error));
+      
+      
+
+         
+
+    </script>
     
 </body>
 </html>
