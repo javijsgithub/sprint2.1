@@ -9,6 +9,25 @@
 
     <h1>Promises & Async/Await</h1>
     <h2>NIVELL 1, exercici 4</h2>
+
+    <script>
+           
+           async function promesa() {
+           return new Promise ((resolve) => {
+           setTimeout(() => {
+              resolve("Hola mundo");
+           },2000);
+           });
+           };
+          
+            async function ejecutar() {
+            const resultado = await promesa();
+            console.log(resultado);
+            };
+
+            ejecutar();
+  
+      </script>
     
 </body>
 </html>
