@@ -9,6 +9,25 @@
 
     <h1>Promises & Async/Await</h1>
     <h2>NIVELL 3, exercici 6</h2>
+
+    <script>
+
+        const promesa1 = new Promise((resolve) => {
+            setTimeout(() => {
+                resolve("Promesa 1 resuelta despues de 2 segundos");
+            }, 2000);
+        });
+        const promesa2 = new Promise((resolve) => {
+            setTimeout(() => {
+                resolve("Promesa 2 resuelta despues de 3 segundos");
+            }, 3000);
+        });
+
+        Promise.all([promesa1, promesa2]).then((resultados) => {
+            console.log(resultados);
+        });
+
+    </script>
     
 </body>
 </html>
