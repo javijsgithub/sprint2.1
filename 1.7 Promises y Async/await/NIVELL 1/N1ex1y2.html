@@ -12,11 +12,12 @@
 
     <script>
                
-      let promesa = new Promise ((resuelve) => {
+      let promesa = new Promise ((resolve) => {
         setTimeout(() => {
-            resuelve("Hola mundo");
+            resolve("Hola mundo");
         },2000);
         });
+        //console.log(promesa);
       promesa.then((resultado) => {
         console.log(resultado);
       });
